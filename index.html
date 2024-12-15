@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>CALCULATOR</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <label class="cal_lbl"
+        ><span style="color: #da005e">CAL</span>CULATOR</label
+      >
+      <label class="show" id="show"></label>
+      <div class="sub_container">
+        <div>
+          <buttton class="btn" onclick="clickClear()">AC</buttton>
+          <buttton class="btn" onclick="clickClear()">DE</buttton>
+          <buttton class="btn" onclick="clickCal(16)">%</buttton>
+          <buttton class="btn" onclick="clickCal(17)">/</buttton>
+        </div>
+        <div>
+          <buttton class="btn" onclick="clickCal(9)">9</buttton>
+          <buttton class="btn" onclick="clickCal(8)">8</buttton>
+          <buttton class="btn" onclick="clickCal(7)">7</buttton>
+          <buttton class="btn" onclick="clickCal(11)">*</buttton>
+        </div>
+        <div>
+          <buttton class="btn" onclick="clickCal(6)">6</buttton>
+          <buttton class="btn" onclick="clickCal(5)">5</buttton>
+          <buttton class="btn" onclick="clickCal(4)">4</buttton>
+          <buttton class="btn" onclick="clickCal(12)">+</buttton>
+        </div>
+        <div>
+          <buttton class="btn" onclick="clickCal(3)">3</buttton>
+          <buttton class="btn" onclick="clickCal(2)">2</buttton>
+          <buttton class="btn" onclick="clickCal(1)">1</buttton>
+          <buttton class="btn" onclick="clickCal(13)">-</buttton>
+        </div>
+        <div>
+          <buttton class="btn" onclick="clickCal(0)">0</buttton>
+          <buttton class="btn" onclick="clickCal(14)">.</buttton>
+          <buttton class="btn1" onclick="clickCal(15)">=</buttton>
+        </div>
+      </div>
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
